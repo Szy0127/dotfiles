@@ -1,0 +1,18 @@
+# Local and sensitive shell configuration
+.zshrc.local
+zsh/.zshrc.local
+
+# Third-party Vim plugins and generated state
+vim/.vim/bundle/
+vim/.vim/plugged/
+vim/.vim/data/
+vim/.vim/.netrwhist
+
+# Third-party tmux plugins
+tmux/plugins/
+
+# Editor and OS files
+*.swp
+*.swo
+*~
+.DS_Store

@@ -1,0 +1,6 @@
+# Copy the settings needed on a specific host to ~/.zshrc.local.
+# This file is an example only; ~/.zshrc.local is never linked or committed.
+
+# export http_proxy='http://proxy.example.com:7890'
+# export https_proxy="$http_proxy"
+# API keys and other credentials also belong in ~/.zshrc.local.
