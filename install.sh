@@ -95,6 +95,7 @@ link_tree_files "$DOTFILES_DIR/vim/.vim" "$HOME/.vim"
 mkdir -p "$HOME/.vim/data/backup" "$HOME/.vim/data/swap"
 
 link_path "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
+tmux source ~/.tmux.conf
 
 if (( INSTALL_PLUGINS )); then
   clone_if_missing \
